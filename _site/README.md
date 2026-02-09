@@ -1,6 +1,5 @@
 # Welcome!
 
-My name is Edward Leon, and I'm a recent computer science graduate with experience in:
+This is a big ol repositroy where I, Edward Leon, will be building up my portfolio site! 
 
-- Game Development
-- Mobile Development
+Feel free to poke around and check out the source code!

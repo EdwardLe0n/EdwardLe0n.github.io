@@ -1,3 +1,26 @@
 theme: jekyll-theme-minimal
-title: Directory
-description: Quick links below!
+title: Edward Leon
+author: Edward Leon
+
+lang: "en"
+excerpt_separator: "\n\n\n"
+show_excerpts: false
+show_frame: false
+
+# make sho_frame true with back ground
+
+# Layout
+
+show_sidebar: false
+
+# Menu
+
+navigation:
+  - {title: Mail, icon: envelope, url: "mailto:i.got.boredddd@gmail.com"}
+  - {title: Github, icon: github, url: "https://github.com/EdwardLe0n"}
+  - {title: Feed, icon: rss, url: "/feed.xml"}
+
+plugins:
+ - jekyll-remote-theme
+ - jekyll-feed
+ - jektex
