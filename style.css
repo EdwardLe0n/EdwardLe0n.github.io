@@ -12,6 +12,43 @@ body {
     font-family: 'Tomorrow';
 }
 
+/* Edits css for the nav class */
+
+.nav {
+    background-color: grey;
+    color: white;
+}
+
+/* Edits the css just for the unordered elements in the nav class */
+
+.nav ul {
+
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+
+}
+
+.nav ul li {
+
+    padding: 16px;
+    text-align: center;
+    font-size: 1.2rem;
+    border-bottom: 1px black;
+
+    /* allows for a transitions back to the standard color over the course of 0.2 seconds */
+    transition: background-color 0.2s;
+
+}
+
+.nav ul li:hover {
+
+    background-color: black;
+
+}
+
+/* id specific edits */
+
 #name {
     width: 300px;
     padding: auto 10px auto 10px;
