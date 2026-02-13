@@ -15,3 +15,4 @@ Feel free to poke around and check out the source code!
 ### General Personal Notes
 
 - Make sure to review the Design Methodology video in the Intro to UI/UX Design course
+- flexflow is goated????? study it!
