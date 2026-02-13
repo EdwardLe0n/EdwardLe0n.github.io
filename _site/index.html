@@ -8,6 +8,12 @@
         <link rel="icon" href="assets/images/32x32_icon.ico">
 
         <link rel="stylesheet" href="style.css">
+
+        <script src="js/jquery-4.0.0.js"></script>
+        <script src="js/home.js"></script>
+
+        <script src="js/main.js"></script>
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,9 +26,9 @@
         <div class = "nav">
 
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Projects</li>
+                <li><button class="nav-element" onclick="window.location.href='/index.html'">Home</button></li>
+                <li><button class="nav-element" onclick="window.location.href='/pages/about.html'">About</button></li>
+                <li><button class="nav-element" onclick="window.location.href='/pages/project_directory.html'">Projects</button></li>
             </ul>
 
         </div>
@@ -60,36 +66,9 @@
 
                     <div class="intro-text centered-container">~ Top Projects Include ~</div>
 
-                    <div class="top-project-list centered-container">
-
-                        <div class="single-project">
-
-                            <img src="assets/projects/chaos/chaos-gameplay-square.png" alt="game scerrenshot">
-                            <p>Here's some info about the project!</p>
+                    <div class="centered-container" id="top-project-list">
                         
-                        </div>
-
-                        <div class="single-project">
-
-                            <img src="assets/projects/chaos/chaos-gameplay-square.png" alt="game scerrenshot">
-                            <p>Here's some info about the project!</p>
-                        
-                        </div>
-
-                        <div class="single-project">
-
-                            <img src="assets/projects/chaos/chaos-gameplay-square.png" alt="game scerrenshot">
-                            <p>Here's some info about the project!</p>
-                        
-                        </div>
-
-                        <div class="single-project">
-
-                            <img src="assets/projects/chaos/chaos-gameplay-square.png" alt="game scerrenshot">
-                            <p>Here's some info about the project!</p>
-                        
-                        </div>
-                        
+                        <!-- Added to dynamically with js -->
 
                     </div>
 
