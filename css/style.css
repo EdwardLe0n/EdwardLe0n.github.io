@@ -39,12 +39,15 @@ img {
 
 .core-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }
 
 .core {
     width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .centered-container {
@@ -62,6 +65,12 @@ img {
 
 .single-project p {
     padding: 0px 16px;
+}
+
+.single-project img {
+    max-height: 300px;
+    width: auto;
+    height: auto;
 }
 
 /* Window specific size edits */

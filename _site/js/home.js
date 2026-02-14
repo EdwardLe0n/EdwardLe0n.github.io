@@ -23,6 +23,12 @@ function loadTopProjects() {
         'Cutting Up Chaos was a rogue-like deck builder in players were tasked with defeating enemies through any means! Even cutting up their own cards and attching them to others to win!'
     );
 
+    loadProject(
+        'assets/projects/turbecs/TurbECS-Logo.png',
+        'TurbECS Icon',
+        'TurbECS is the Turbo Entity Component System (framework), that lets developers make custom components and systems, yet still rely on the flexibility Turbo has!'
+    );
+
 }
 
 function loadProject(img, img_alt, text) {

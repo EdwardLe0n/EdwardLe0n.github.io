@@ -3,9 +3,41 @@
 .intro-head {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    width: 80%;
 }
 
 .intro-text {
+    padding-left: 10px;
+
+    /* Tinker with later???? */
+
+    /* 
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: nowrap;
+     */
+
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* id specific edits */
+
+#name {
+    width: 300px;
+    height: auto;
+    padding: 5px auto 5px 5px;
+    border-radius: 6px;
+}
+
+#top-project-list-title{
     color: black;
     font-size: 1.8rem;
     text-align: center;
@@ -13,14 +45,6 @@
     padding-bottom: 25px;
 }
 
-/* id specific edits */
-
-#name {
-    width: 300px;
-    max-height: 100px;
-    padding: auto auto auto auto;
-    border-radius: 6px;
-}
 
 #top-project-list {
     display: flex;
@@ -35,9 +59,18 @@
     border-radius: 50%;
 }
 
+#fun-facts {
+
+    color: whitesmoke;
+    background-color: gray;
+    padding: 0.5px 5px 0.5px 15px;
+    border-radius: 10px;
+
+}
+
 /* Window specific size edits */
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1000px) {
 
     .intro-head {
         flex-direction: row;
