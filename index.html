@@ -2,17 +2,37 @@
 <html>
 
     <head>
+
+        <!-- Normal starter stuff -->
+
         <title>Welcome!</title>
         <meta charset="UTF-8">
         <meta name="description" content="Indie Developer that can pick up all sorts of tech stacks!">
-        <link rel="icon" href="assets/images/32x32_icon.ico">
+        <link rel="icon" href="/assets/images/32x32_icon.ico">
 
-        <link rel="stylesheet" href="style.css">
+        <!-- Styling -->
 
-        <script src="js/jquery-4.0.0.js"></script>
-        <script src="js/home.js"></script>
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/nav.css">
+        <link rel="stylesheet" href="/css/footer.css">
 
-        <script src="js/main.js"></script>
+        <!-- page specific css -->
+        <link rel="stylesheet" href="/css/home.css">
+
+        <!-- Common js (not by me) -->
+
+        <script src="/js/jquery-4.0.0.js"></script>
+        <script src="/js/w3-schools.js"></script>
+
+        <!-- Common js (by me) -->
+
+        <script src="/js/main.js"></script>
+
+        <!-- Page specific js -->
+
+        <script src="/js/home.js"></script>
+
+        <!-- Font stuff -->
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
 
@@ -23,15 +43,7 @@
 
     <body>
 
-        <div class = "nav">
-
-            <ul>
-                <li><button class="nav-element" onclick="window.location.href='/index.html'">Home</button></li>
-                <li><button class="nav-element" onclick="window.location.href='/pages/about.html'">About</button></li>
-                <li><button class="nav-element" onclick="window.location.href='/pages/project_directory.html'">Projects</button></li>
-            </ul>
-
-        </div>
+        <div id = "nav" w3-include-html="/templates/nav.html"></div>
 
         <div class = "core-container">
 
@@ -78,11 +90,11 @@
         
         </div>
 
-        <div>
+        <div id = "footer" w3-include-html="/templates/footer.html"></div>
 
-            <p id="toLinkTree"><a href="https://linktr.ee/i_got_boredddd" id="toLinkTreeLink" title="Linktree">Find more social media work, along side other links here!</a></p>
-
-        </div>
+        <script>
+            includeHTML();
+        </script>
 
     </body>
 </html>

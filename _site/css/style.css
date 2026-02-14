@@ -1,0 +1,76 @@
+h1 {
+    padding: 8px 0px 8px 10px;
+    color: whitesmoke;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+p {
+    font-size:20px;
+}
+
+body {
+    background-color: whitesmoke;
+    font-size: 16px;
+    font-family: 'Tomorrow';
+    padding: 0px;
+    margin: 0px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+}
+
+/* Class specific edits */
+
+.wrapper {
+    margin-bottom: 1px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.core-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.core {
+    width: 95%;
+}
+
+.centered-container {
+    max-width: 95%;
+    margin: 0px auto;
+    padding-left: 16px;
+    padding-bottom: 25px;
+}
+
+.single-project {
+    text-align: center;
+    margin-bottom: 32px;
+    width: 90%;
+}
+
+.single-project p {
+    padding: 0px 16px;
+}
+
+/* Window specific size edits */
+
+@media screen and (min-width: 700px) {
+
+    .single-project {
+        width: 50%;
+        float: left;
+    }
+
+}  

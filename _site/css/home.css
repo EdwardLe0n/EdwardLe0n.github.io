@@ -1,0 +1,46 @@
+/* Class edits */
+
+.intro-head {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-text {
+    color: black;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+/* id specific edits */
+
+#name {
+    width: 300px;
+    max-height: 100px;
+    padding: auto auto auto auto;
+    border-radius: 6px;
+}
+
+#top-project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#headshot {
+    width:  400px;
+    height: auto;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+/* Window specific size edits */
+
+@media screen and (min-width: 700px) {
+
+    .intro-head {
+        flex-direction: row;
+    }
+
+}  

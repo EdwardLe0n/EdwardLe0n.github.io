@@ -2,17 +2,29 @@
 <html>
 
     <head>
-        <title>Welcome!</title>
+        <title>About</title>
         <meta charset="UTF-8">
         <meta name="description" content="Indie Developer that can pick up all sorts of tech stacks!">
-        <link rel="icon" href="assets/images/32x32_icon.ico">
+        <link rel="icon" href="/assets/images/32x32_icon.ico">
 
-        <link rel="stylesheet" href="style.css">
+        <!-- Styling -->
 
-        <script src="../js/jquery-4.0.0.js"></script>
-        <script src="../js/home.js"></script>
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/nav.css">
+        <link rel="stylesheet" href="/css/footer.css">
 
-        <script src="../js/main.js"></script>
+        <!-- Common js (not by me) -->
+
+        <script src="/js/jquery-4.0.0.js"></script>
+        <script src="/js/w3-schools.js"></script>
+
+        <!-- Common js (by me) -->
+
+        <script src="/js/main.js"></script>
+
+        <!-- Page specific js -->
+
+        <!-- Font stuff -->
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
 
@@ -23,7 +35,28 @@
 
     <body>
 
-        <p>test</p>
+        <div id = "nav" w3-include-html="/templates/nav.html"></div>
+
+        <div class = "core-container">
+
+            <div class = "core">
+
+                <h1>About</h1>
+
+                <img src="/assets/working/skeleton moment.gif">
+                <h1>In development!!!! Ignore!!!!</h1>
+
+            </div>
+        
+        </div>
+
+        <div id = "footer" w3-include-html="/templates/footer.html"></div>
+
+        <!-- REMEMBER THIS!!!! -->
+
+        <script>
+            includeHTML();
+        </script>
 
     </body>
 
