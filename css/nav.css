@@ -50,7 +50,9 @@
 
 /* Window specific size edits */
 
-@media screen and (min-width: 700px) {
+/* dev note: @media screen is a note the makes sure the rule only applies to screens */
+
+@media screen and (min-width: 500px) {
 
     #nav ul {
         
